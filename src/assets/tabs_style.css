@@ -1,0 +1,65 @@
+/*
+* {
+    font-family: IBM Plex Sans, sans-serif;
+    color: rgb(200, 200, 200);
+
+}
+
+
+body {
+    background-color: #192244;
+    margin: 2% 5%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-container-flex {
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 16px;
+    padding: 15px;
+    flex-basis: 20%;
+    box-shadow: 2px 2px 2px #1f2c56;
+    width: 20%;
+}
+*/
+.custom-tabs {
+    background-color: #192244;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    font-size: 12px;
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#tab1.custom-tab,
+#tab2.custom-tab {
+    /* background-color: #192244; */
+    /* color: inherit; */
+    border: #1f2c56 solid 4px !important;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    height: 12px;
+    border-radius: 0px 50px 0px 0px;
+}
+
+
+#tab1.custom-tab--selected,
+#tab2.custom-tab--selected {
+    border-bottom: #ffffff solid 4px !important;
+}
